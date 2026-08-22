@@ -1,0 +1,2044 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+
+    <!-- =====================================================
+         SEO
+    ====================================================== -->
+
+    <title>
+        PSW Staffing Agency Toronto & GTA | Juels Health Care
+    </title>
+
+    <meta
+        name="description"
+        content="Juels Health Care provides reliable PSW staffing and healthcare staffing solutions for retirement homes, long-term care homes, group homes, home care organizations and healthcare providers across Toronto and the GTA."
+    >
+
+    <meta name="robots" content="index, follow">
+
+
+    <!-- CHANGE THIS WHEN YOUR REAL DOMAIN IS READY -->
+
+    <link
+        rel="canonical"
+        href="https://www.yourdomain.com/"
+    >
+
+
+    <!-- =====================================================
+         SOCIAL MEDIA PREVIEW
+    ====================================================== -->
+
+    <meta
+        property="og:title"
+        content="Juels Health Care | PSW Staffing Toronto & GTA"
+    >
+
+    <meta
+        property="og:description"
+        content="Reliable PSW and healthcare staffing solutions for organizations across Toronto and the GTA."
+    >
+
+    <meta property="og:type" content="website">
+
+    <meta
+        property="og:image"
+        content="images/hero-psw.jpg"
+    >
+
+
+    <!-- =====================================================
+         CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+
+    <!-- =====================================================
+         EXTRA IMAGE STYLING
+         You can later move this into style.css
+    ====================================================== -->
+
+    <style>
+
+        /* HERO IMAGE */
+
+        .hero-photo-wrapper {
+            position: relative;
+        }
+
+        .hero-photo {
+            width: 100%;
+            height: 540px;
+            object-fit: cover;
+            border-radius: 16px;
+            display: block;
+
+            box-shadow:
+                0 25px 55px
+                rgba(0, 0, 0, 0.25);
+        }
+
+        .hero-photo-card {
+            position: absolute;
+            left: -30px;
+            bottom: 30px;
+
+            width: 290px;
+
+            background: white;
+
+            padding: 22px;
+
+            border-radius: 10px;
+
+            box-shadow:
+                0 15px 35px
+                rgba(0, 0, 0, 0.20);
+        }
+
+        .hero-photo-card h3 {
+            color: #092f46;
+            margin-bottom: 6px;
+        }
+
+        .hero-photo-card p {
+            color: #667085;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        .hero-photo-card a {
+            color: #0b8f87;
+            font-weight: bold;
+        }
+
+
+
+        /* ABOUT HOME IMAGE */
+
+        .home-about-grid {
+            display: grid;
+            grid-template-columns: 0.9fr 1fr;
+            gap: 75px;
+            align-items: center;
+        }
+
+        .home-about-photo {
+            position: relative;
+        }
+
+        .home-about-photo img {
+            width: 100%;
+            height: 480px;
+            object-fit: cover;
+            border-radius: 14px;
+            display: block;
+        }
+
+        .photo-badge {
+            position: absolute;
+            right: -20px;
+            bottom: 25px;
+
+            background: #0b8f87;
+            color: white;
+
+            padding: 20px 24px;
+
+            border-radius: 8px;
+
+            box-shadow:
+                0 12px 30px
+                rgba(0,0,0,0.18);
+        }
+
+        .photo-badge strong,
+        .photo-badge span {
+            display: block;
+        }
+
+        .photo-badge span {
+            font-size: 13px;
+            margin-top: 3px;
+        }
+
+
+
+        /* INDUSTRY PHOTO CARDS */
+
+        .industry-photo-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            margin-top: 45px;
+        }
+
+        .industry-photo-card {
+            position: relative;
+            height: 390px;
+            overflow: hidden;
+            border-radius: 14px;
+        }
+
+        .industry-photo-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+            transition:
+                transform 0.4s ease;
+        }
+
+        .industry-photo-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .industry-photo-card::after {
+            content: "";
+
+            position: absolute;
+            inset: 0;
+
+            background:
+                linear-gradient(
+                    to top,
+                    rgba(5, 37, 54, 0.95),
+                    rgba(5, 37, 54, 0.05)
+                );
+        }
+
+        .industry-photo-content {
+            position: absolute;
+
+            left: 0;
+            bottom: 0;
+
+            z-index: 2;
+
+            color: white;
+
+            padding: 30px;
+        }
+
+        .industry-photo-content span {
+            color: #85ded9;
+
+            font-size: 12px;
+
+            font-weight: bold;
+
+            letter-spacing: 1.5px;
+        }
+
+        .industry-photo-content h3 {
+            font-size: 25px;
+
+            margin:
+                7px 0 5px;
+        }
+
+        .industry-photo-content p {
+            color: #e4eeee;
+        }
+
+
+
+        /* CAREER IMAGE */
+
+        .career-photo {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+
+            border-radius: 14px;
+
+            display: block;
+        }
+
+
+
+        /* RESPONSIVE IMAGES */
+
+        @media (max-width: 850px) {
+
+            .home-about-grid {
+                grid-template-columns: 1fr;
+                gap: 45px;
+            }
+
+            .industry-photo-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-photo-card {
+                left: 20px;
+            }
+
+        }
+
+
+        @media (max-width: 600px) {
+
+            .hero-photo {
+                height: 400px;
+            }
+
+            .hero-photo-card {
+                position: relative;
+
+                left: auto;
+                bottom: auto;
+
+                width: 100%;
+
+                margin-top: -30px;
+            }
+
+            .home-about-photo img {
+                height: 380px;
+            }
+
+            .photo-badge {
+                position: static;
+
+                margin-top: 12px;
+            }
+
+            .career-photo {
+                height: 400px;
+            }
+
+            .industry-photo-card {
+                height: 340px;
+            }
+
+        }
+
+    </style>
+
+
+    <!-- =====================================================
+         GOOGLE STRUCTURED DATA
+    ====================================================== -->
+
+    <script type="application/ld+json">
+
+    {
+        "@context": "https://schema.org",
+
+        "@type": "Organization",
+
+        "name": "Juels Health Care Corporation",
+
+        "description":
+        "Healthcare staffing and Personal Support Worker staffing services.",
+
+        "url":
+        "https://www.yourdomain.com/",
+
+        "areaServed": [
+            "Toronto",
+            "Scarborough",
+            "Greater Toronto Area"
+        ]
+    }
+
+    </script>
+
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     TOP BAR
+========================================================== -->
+
+<div class="top-bar">
+
+    <div class="container top-bar-container">
+
+        <div class="top-contact">
+
+            <span>
+                Serving Toronto & the Greater Toronto Area
+            </span>
+
+            <span>|</span>
+
+            <a href="tel:+2897753074">
+                Call Us
+            </a>
+
+            <span>|</span>
+
+            <a href="mailto:juelshealthcare@outlook.com">
+                juelshealthcare@outlook.com
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     NAVIGATION
+========================================================== -->
+
+<header class="main-header">
+
+    <div class="container">
+
+        <nav class="navbar">
+
+
+            <!-- LOGO -->
+
+            <a
+                href="index.html"
+                class="logo"
+                aria-label="Juels Health Care Home"
+            >
+
+                <div class="logo-text">
+
+                    <span class="logo-main">
+                        JUELS
+                    </span>
+
+                    <span class="logo-sub">
+                        HEALTH CARE
+                    </span>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- MOBILE MENU -->
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+            >
+
+                ☰
+
+            </button>
+
+
+
+            <!-- NAVIGATION -->
+
+            <ul
+                class="nav-links"
+                id="navLinks"
+            >
+
+                <li>
+
+                    <a
+                        href="index.html"
+                        class="active"
+                    >
+                        Home
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a href="about.html">
+                        About Us
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a href="services.html">
+                        Staffing Services
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a href="industries.html">
+                        Industries
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a href="careers.html">
+                        Careers
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a href="contact.html">
+                        Contact
+                    </a>
+
+                </li>
+
+
+            </ul>
+
+
+
+            <!-- REQUEST STAFF BUTTON -->
+
+            <a
+                href="request-staff.html"
+                class="nav-cta"
+            >
+                Request Staff
+            </a>
+
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<main>
+
+
+<!-- =========================================================
+     HERO SECTION
+========================================================== -->
+
+<section class="hero">
+
+    <div class="container hero-container">
+
+
+        <!-- LEFT SIDE -->
+
+        <div class="hero-content">
+
+
+            <p class="eyebrow">
+                PROFESSIONAL HEALTHCARE STAFFING
+            </p>
+
+
+            <h1>
+
+                Reliable PSW Staffing
+                for Healthcare Organizations
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                Juels Health Care connects healthcare
+                organizations with dependable Personal Support
+                Workers and healthcare professionals for
+                temporary, ongoing and contract staffing needs
+                across Toronto and the Greater Toronto Area.
+
+            </p>
+
+
+
+            <div class="hero-buttons">
+
+
+                <a
+                    href="request-staff.html"
+                    class="btn btn-primary"
+                >
+
+                    Request Staff
+
+                </a>
+
+
+                <a
+                    href="careers.html"
+                    class="btn btn-outline"
+                >
+
+                    Join Our Team
+
+                </a>
+
+
+            </div>
+
+
+
+            <div class="hero-small-text">
+
+                <span>
+                    ✓ Flexible Staffing
+                </span>
+
+                <span>
+                    ✓ Professional Support
+                </span>
+
+                <span>
+                    ✓ Toronto & GTA
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- RIGHT SIDE IMAGE -->
+
+        <div class="hero-photo-wrapper">
+
+
+            <img
+                src="images/hero-psw.jpg"
+                alt="Personal Support Worker assisting a senior in Toronto"
+                class="hero-photo"
+            >
+
+
+            <div class="hero-photo-card">
+
+                <h3>
+                    Need Healthcare Staff?
+                </h3>
+
+                <p>
+                    Tell us about your organization's
+                    staffing requirements.
+                </p>
+
+                <a href="request-staff.html">
+                    Request Staff →
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     TRUST BAR
+========================================================== -->
+
+<section class="trust-section">
+
+    <div class="container trust-grid">
+
+
+        <div class="trust-item">
+
+            <div class="trust-icon">
+                ✓
+            </div>
+
+            <div>
+
+                <h3>
+                    Screened Professionals
+                </h3>
+
+                <p>
+                    Credential-focused worker screening.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="trust-item">
+
+            <div class="trust-icon">
+                ♡
+            </div>
+
+            <div>
+
+                <h3>
+                    Quality Care
+                </h3>
+
+                <p>
+                    Compassion and professionalism matter.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="trust-item">
+
+            <div class="trust-icon">
+                ↗
+            </div>
+
+            <div>
+
+                <h3>
+                    Flexible Coverage
+                </h3>
+
+                <p>
+                    Support for changing staffing needs.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="trust-item">
+
+            <div class="trust-icon">
+                ●
+            </div>
+
+            <div>
+
+                <h3>
+                    Ontario Based
+                </h3>
+
+                <p>
+                    Serving Toronto and the GTA.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     ABOUT SECTION WITH IMAGE
+========================================================== -->
+
+<section class="intro-section">
+
+    <div class="container home-about-grid">
+
+
+        <!-- IMAGE -->
+
+        <div class="home-about-photo">
+
+
+            <img
+                src="images/healthcare-team.jpg"
+                alt="Professional healthcare staffing team"
+                loading="lazy"
+            >
+
+
+            <div class="photo-badge">
+
+                <strong>
+                    Healthcare Staffing
+                </strong>
+
+                <span>
+                    Toronto & GTA
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- TEXT -->
+
+        <div class="intro-content">
+
+
+            <p class="section-label">
+                JUELS HEALTH CARE
+            </p>
+
+
+            <h2>
+
+                A Dependable Healthcare
+                Staffing Partner
+
+            </h2>
+
+
+            <p>
+
+                Healthcare organizations need dependable
+                staff to maintain quality care and
+                continuity of service.
+
+            </p>
+
+
+            <p>
+
+                Juels Health Care provides flexible
+                healthcare staffing solutions designed to
+                help organizations manage vacancies,
+                employee absences, increased service demands
+                and ongoing staffing requirements.
+
+            </p>
+
+
+            <p>
+
+                Our focus is on connecting organizations
+                with healthcare professionals who understand
+                the importance of respectful, compassionate
+                and professional care.
+
+            </p>
+
+
+            <a
+                href="about.html"
+                class="text-link"
+            >
+
+                Learn More About Juels Health Care →
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     SERVICES
+========================================================== -->
+
+<section class="services-section">
+
+    <div class="container">
+
+
+        <div class="section-header-centered">
+
+
+            <p class="section-label">
+                OUR STAFFING SOLUTIONS
+            </p>
+
+
+            <h2>
+
+                Healthcare Staffing Built
+                Around Your Needs
+
+            </h2>
+
+
+            <p>
+
+                From temporary coverage to ongoing staffing
+                support, Juels Health Care works with
+                healthcare organizations to understand their
+                workforce requirements.
+
+            </p>
+
+
+        </div>
+
+
+
+        <div class="services-grid">
+
+
+            <!-- PSW -->
+
+            <article class="service-card">
+
+                <div class="service-number">
+                    01
+                </div>
+
+                <h3>
+                    PSW Staffing
+                </h3>
+
+                <p>
+
+                    Personal Support Workers for organizations
+                    requiring dependable frontline care
+                    support.
+
+                </p>
+
+                <ul>
+
+                    <li>
+                        Temporary staffing
+                    </li>
+
+                    <li>
+                        Scheduled shift coverage
+                    </li>
+
+                    <li>
+                        Ongoing staffing support
+                    </li>
+
+                </ul>
+
+                <a href="services.html">
+                    Learn More →
+                </a>
+
+            </article>
+
+
+
+            <!-- TEMPORARY -->
+
+            <article class="service-card">
+
+                <div class="service-number">
+                    02
+                </div>
+
+                <h3>
+                    Temporary & Relief Staffing
+                </h3>
+
+                <p>
+
+                    Flexible staffing solutions for
+                    organizations experiencing temporary
+                    workforce shortages.
+
+                </p>
+
+                <ul>
+
+                    <li>
+                        Sick leave coverage
+                    </li>
+
+                    <li>
+                        Vacation coverage
+                    </li>
+
+                    <li>
+                        Increased staffing demand
+                    </li>
+
+                </ul>
+
+                <a href="services.html">
+                    Learn More →
+                </a>
+
+            </article>
+
+
+
+            <!-- LONG TERM -->
+
+            <article class="service-card">
+
+                <div class="service-number">
+                    03
+                </div>
+
+                <h3>
+                    Long-Term Staffing
+                </h3>
+
+                <p>
+
+                    Consistent staffing support for
+                    organizations requiring healthcare
+                    professionals over longer periods.
+
+                </p>
+
+                <ul>
+
+                    <li>
+                        Recurring schedules
+                    </li>
+
+                    <li>
+                        Contract staffing
+                    </li>
+
+                    <li>
+                        Workforce support
+                    </li>
+
+                </ul>
+
+                <a href="services.html">
+                    Learn More →
+                </a>
+
+            </article>
+
+
+        </div>
+
+
+
+        <div class="center-button">
+
+            <a
+                href="services.html"
+                class="btn btn-primary"
+            >
+
+                Explore All Staffing Services
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     INDUSTRIES WITH PHOTOS
+========================================================== -->
+
+<section class="industries-section">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                WHO WE SUPPORT
+            </p>
+
+
+            <h2>
+                Supporting Organizations
+                Across the Healthcare Sector
+            </h2>
+
+
+            <p>
+                Juels Health Care provides healthcare staffing
+                support to hospitals, retirement homes,
+                long-term care homes, home care organizations,
+                group homes, supportive housing providers and
+                other healthcare organizations across Toronto
+                and the GTA.
+            </p>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             INDUSTRY PHOTO CARDS
+        ====================================================== -->
+
+        <div class="all-industry-photo-grid">
+
+
+            <!-- RETIREMENT HOMES -->
+
+            <a
+                href="industries.html"
+                class="industry-photo-card-new"
+            >
+
+                <img
+                    src="images/retirement-home.jpg"
+                    alt="Personal Support Worker supporting a senior in a retirement home"
+                    loading="lazy"
+                >
+
+                <div class="industry-photo-overlay">
+
+                    <span>
+                        01
+                    </span>
+
+                    <h3>
+                        Retirement Homes
+                    </h3>
+
+                    <p>
+                        Dependable PSW staffing support
+                        for retirement residences.
+                    </p>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- LONG-TERM CARE -->
+
+            <a
+                href="industries.html"
+                class="industry-photo-card-new"
+            >
+
+                <img
+                    src="images/long-term-care.jpg"
+                    alt="Healthcare worker providing support in a long-term care home"
+                    loading="lazy"
+                >
+
+                <div class="industry-photo-overlay">
+
+                    <span>
+                        02
+                    </span>
+
+                    <h3>
+                        Long-Term Care
+                    </h3>
+
+                    <p>
+                        Healthcare staffing support for
+                        long-term care environments.
+                    </p>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- HOSPITALS -->
+
+            <a
+                href="industries.html"
+                class="industry-photo-card-new"
+            >
+
+                <img
+                    src="images/hospital-staffing.jpg"
+                    alt="Healthcare professionals working together in a hospital"
+                    loading="lazy"
+                >
+
+                <div class="industry-photo-overlay">
+
+                    <span>
+                        03
+                    </span>
+
+                    <h3>
+                        Hospitals
+                    </h3>
+
+                    <p>
+                        Flexible PSW, RPN and healthcare
+                        staffing support for hospitals.
+                    </p>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- HOME CARE -->
+
+            <a
+                href="industries.html"
+                class="industry-photo-card-new"
+            >
+
+                <img
+                    src="images/home-care.jpg"
+                    alt="Personal Support Worker providing home care support"
+                    loading="lazy"
+                >
+
+                <div class="industry-photo-overlay">
+
+                    <span>
+                        04
+                    </span>
+
+                    <h3>
+                        Home Care Organizations
+                    </h3>
+
+                    <p>
+                        Flexible workforce support for
+                        home and community care providers.
+                    </p>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- GROUP HOMES -->
+
+            <a
+                href="industries.html"
+                class="industry-photo-card-new"
+            >
+
+                <img
+                    src="images/group-home.jpg"
+                    alt="Healthcare professional supporting residents in a group home"
+                    loading="lazy"
+                >
+
+                <div class="industry-photo-overlay">
+
+                    <span>
+                        05
+                    </span>
+
+                    <h3>
+                        Group Homes
+                    </h3>
+
+                    <p>
+                        Compassionate staffing support
+                        for residential care environments.
+                    </p>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- SUPPORTIVE HOUSING -->
+
+            <a
+                href="industries.html"
+                class="industry-photo-card-new"
+            >
+
+                <img
+                    src="images/supportive-housing.jpg"
+                    alt="Personal Support Worker assisting a client in supportive housing"
+                    loading="lazy"
+                >
+
+                <div class="industry-photo-overlay">
+
+                    <span>
+                        06
+                    </span>
+
+                    <h3>
+                        Supportive Housing
+                    </h3>
+
+                    <p>
+                        Staffing and personal care support
+                        for supportive living environments.
+                    </p>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- HEALTHCARE ORGANIZATIONS -->
+
+            <a
+                href="industries.html"
+                class="industry-photo-card-new"
+            >
+
+                <img
+                    src="images/home-care.jpg"
+                    alt="Healthcare professionals working together in a healthcare facility"
+                    loading="lazy"
+                >
+
+                <div class="industry-photo-overlay">
+
+                    <span>
+                        07
+                    </span>
+
+                    <h3>
+                        Healthcare Organizations
+                    </h3>
+
+                    <p>
+                        Professional workforce support
+                        for healthcare and community organizations.
+                    </p>
+
+                </div>
+
+            </a>
+
+
+        </div>
+
+
+
+        <!-- EXPLORE BUTTON -->
+
+        <div class="center-button">
+
+            <a
+                href="industries.html"
+                class="btn btn-primary"
+            >
+                Explore Industries We Serve
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     EMPLOYERS
+========================================================== -->
+
+<section class="employer-section">
+
+    <div class="container employer-grid">
+
+
+        <div class="employer-content">
+
+
+            <p class="section-label light-label">
+                FOR HEALTHCARE EMPLOYERS
+            </p>
+
+
+            <h2>
+
+                Need Qualified PSWs
+                for Your Organization?
+
+            </h2>
+
+
+            <p>
+
+                Whether you need additional staff for one
+                shift or require ongoing staffing support,
+                Juels Health Care can discuss a solution
+                based on your organization's needs.
+
+            </p>
+
+
+
+            <div class="employer-features">
+
+                <div>
+                    ✓ Temporary coverage
+                </div>
+
+                <div>
+                    ✓ Long-term staffing
+                </div>
+
+                <div>
+                    ✓ Shift coverage
+                </div>
+
+                <div>
+                    ✓ Contract staffing
+                </div>
+
+            </div>
+
+
+
+            <a
+                href="request-staff.html"
+                class="btn btn-white"
+            >
+
+                Request Staff
+
+            </a>
+
+
+        </div>
+
+
+
+        <div class="employer-box">
+
+
+            <p class="small-heading">
+                STAFFING REQUEST
+            </p>
+
+
+            <h3>
+                Tell Us What You Need
+            </h3>
+
+
+            <p>
+
+                Complete our staffing inquiry form with
+                your organization, location, staffing
+                requirements and desired start date.
+
+            </p>
+
+
+            <div class="request-step">
+
+                <span>
+                    01
+                </span>
+
+                <p>
+                    Tell us about your organization.
+                </p>
+
+            </div>
+
+
+            <div class="request-step">
+
+                <span>
+                    02
+                </span>
+
+                <p>
+                    Tell us which staff you require.
+                </p>
+
+            </div>
+
+
+            <div class="request-step">
+
+                <span>
+                    03
+                </span>
+
+                <p>
+                    Our team reviews your request.
+                </p>
+
+            </div>
+
+
+            <a
+                href="request-staff.html"
+                class="employer-link"
+            >
+
+                Start Your Staffing Request →
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CAREERS WITH IMAGE
+========================================================== -->
+
+<section class="career-section">
+
+    <div class="container career-grid">
+
+
+        <!-- CAREER IMAGE -->
+
+        <div class="career-image">
+
+
+            <img
+                src="images/career-psw.jpg"
+                alt="Professional Personal Support Worker healthcare career"
+                class="career-photo"
+                loading="lazy"
+            >
+
+
+        </div>
+
+
+
+        <!-- CAREER TEXT -->
+
+        <div class="career-content">
+
+
+            <p class="section-label">
+                FOR HEALTHCARE PROFESSIONALS
+            </p>
+
+
+            <h2>
+
+                Build Your Healthcare Career
+                With Juels Health Care
+
+            </h2>
+
+
+            <p>
+
+                We are interested in connecting with
+                qualified healthcare professionals who
+                are committed to providing respectful,
+                dependable and compassionate care.
+
+            </p>
+
+
+
+            <ul class="career-list">
+
+                <li>
+                    Personal Support Workers
+                </li>
+
+                <li>
+                    Registered Practical Nurses
+                </li>
+
+                <li>
+                    Healthcare Support Workers
+                </li>
+
+            </ul>
+
+
+
+            <a
+                href="careers.html"
+                class="btn btn-primary"
+            >
+
+                Join Our Team
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     HOW IT WORKS
+========================================================== -->
+
+<section class="process-section">
+
+    <div class="container">
+
+
+        <div class="section-header-centered">
+
+            <p class="section-label">
+                HOW IT WORKS
+            </p>
+
+            <h2>
+                A Simple Staffing Process
+            </h2>
+
+        </div>
+
+
+
+        <div class="process-grid">
+
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    01
+                </span>
+
+                <h3>
+                    Submit
+                </h3>
+
+                <p>
+
+                    Send us your organization's
+                    staffing requirements.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    02
+                </span>
+
+                <h3>
+                    Review
+                </h3>
+
+                <p>
+
+                    Our team reviews your
+                    staffing requirements.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    03
+                </span>
+
+                <h3>
+                    Match
+                </h3>
+
+                <p>
+
+                    Suitable healthcare professionals
+                    are considered for your needs.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    04
+                </span>
+
+                <h3>
+                    Support
+                </h3>
+
+                <p>
+
+                    We maintain communication throughout
+                    the staffing relationship.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     SERVICE AREA / SEO
+========================================================== -->
+
+<section class="location-section">
+
+    <div class="container location-grid">
+
+
+        <div>
+
+            <p class="section-label">
+                SERVICE AREA
+            </p>
+
+            <h2>
+
+                PSW Staffing in Toronto
+                and the GTA
+
+            </h2>
+
+        </div>
+
+
+
+        <div>
+
+            <p>
+
+                Juels Health Care provides healthcare
+                staffing support to organizations throughout
+                Toronto, Scarborough and communities across
+                the Greater Toronto Area.
+
+            </p>
+
+
+            <p>
+
+                If your healthcare organization requires
+                Personal Support Workers, temporary staffing,
+                contract workers or ongoing workforce support,
+                contact our team to discuss your requirements.
+
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     FINAL CTA
+========================================================== -->
+
+<section class="final-cta">
+
+    <div class="container final-cta-content">
+
+
+        <p class="cta-small">
+            LET'S WORK TOGETHER
+        </p>
+
+
+        <h2>
+
+            Reliable Staffing Starts
+            With the Right Partner
+
+        </h2>
+
+
+        <p>
+
+            Tell us about your staffing needs and discover
+            how Juels Health Care can support your organization.
+
+        </p>
+
+
+
+        <div class="cta-buttons">
+
+
+            <a
+                href="request-staff.html"
+                class="btn btn-white"
+            >
+
+                Request Staff
+
+            </a>
+
+
+            <a
+                href="contact.html"
+                class="btn btn-transparent"
+            >
+
+                Contact Our Team
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- =========================================================
+     FOOTER
+========================================================== -->
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+
+        <!-- COMPANY -->
+
+        <div class="footer-company">
+
+
+            <div class="footer-logo">
+
+                JUELS
+
+                <span>
+                    HEALTH CARE
+                </span>
+
+            </div>
+
+
+            <p>
+
+                Professional healthcare staffing solutions
+                for organizations across Toronto and the
+                Greater Toronto Area.
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- QUICK LINKS -->
+
+        <div>
+
+            <h3>
+                Quick Links
+            </h3>
+
+            <ul>
+
+                <li>
+
+                    <a href="index.html">
+                        Home
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="about.html">
+                        About Us
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="services.html">
+                        Staffing Services
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="industries.html">
+                        Industries
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- WORK WITH US -->
+
+        <div>
+
+            <h3>
+                Work With Us
+            </h3>
+
+            <ul>
+
+                <li>
+
+                    <a href="request-staff.html">
+                        Request Staff
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="careers.html">
+                        Careers
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="contact.html">
+                        Contact Us
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- CONTACT -->
+
+        <div>
+
+            <h3>
+                Contact
+            </h3>
+
+            <p>
+                Toronto, Ontario
+            </p>
+
+            <p>
+
+                <a href="tel:+12897753074">
+                    Phone: (289) 775-3074, 
+                </a>
+
+            </p>
+
+            <p>
+
+                <a href="mailto:juelshealthcare@outlook.com">
+                    juelshealthcare@outlook.com
+                </a>
+
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <p>
+
+                © 2026 Juels Health Care Corporation.
+                All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================== -->
+
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>
