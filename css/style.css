@@ -5021,3 +5021,128 @@ button {
     }
 
 }
+
+/* =========================================
+   JUELS LOGO + HEADER FIX
+========================================= */
+
+.logo {
+    width: 270px;
+    height: 105px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.website-logo {
+    width: 270px;
+    height: 105px;
+
+    object-fit: cover;
+    object-position: center;
+
+    display: block;
+}
+
+
+/* HEADER */
+
+.main-header .navbar {
+    min-height: 120px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 25px;
+}
+
+
+/* NAVIGATION */
+
+.nav-links {
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-links li {
+    white-space: nowrap;
+}
+
+.nav-links a {
+    white-space: nowrap;
+
+    font-size: 18px;
+}
+
+
+/* BUTTON */
+
+.nav-cta {
+    white-space: nowrap;
+
+    padding: 18px 26px;
+
+    font-size: 17px;
+
+    flex-shrink: 0;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1200px) {
+
+    .logo {
+        width: 230px;
+        height: 90px;
+    }
+
+    .website-logo {
+        width: 230px;
+        height: 90px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    .nav-cta {
+        padding: 15px 20px;
+        font-size: 15px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 850px) {
+
+    .logo {
+        width: 190px;
+        height: 75px;
+    }
+
+    .website-logo {
+        width: 190px;
+        height: 75px;
+    }
+
+}
