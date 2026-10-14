@@ -2,52 +2,55 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <!-- =====================================================
          SEO
     ====================================================== -->
 
     <title>
-        PSW Staffing Agency Toronto & GTA | Juels Health Care
+        Private Home Care & Healthcare Staffing Toronto | Juels Health Care
     </title>
 
     <meta
         name="description"
-        content="Juels Health Care provides reliable PSW staffing and healthcare staffing solutions for retirement homes, long-term care homes, group homes, home care organizations and healthcare providers across Toronto and the GTA."
+        content="Juels Health Care provides private PSW home care for individuals and families, including post-hospital support, personal care, respite, overnight and 24-hour care, plus healthcare staffing for organizations across Toronto and the GTA."
     >
 
-    <meta name="robots" content="index, follow">
-
-
-    <!-- CHANGE THIS WHEN YOUR REAL DOMAIN IS READY -->
+    <meta
+        name="robots"
+        content="index, follow"
+    >
 
     <link
         rel="canonical"
-        href="https://www.yourdomain.com/"
+        href="https://juelshealthcareagency.ca/"
     >
 
 
     <!-- =====================================================
-         SOCIAL MEDIA PREVIEW
+         SOCIAL MEDIA
     ====================================================== -->
 
     <meta
         property="og:title"
-        content="Juels Health Care | PSW Staffing Toronto & GTA"
+        content="Juels Health Care | Private Home Care & Healthcare Staffing"
     >
 
     <meta
         property="og:description"
-        content="Reliable PSW and healthcare staffing solutions for organizations across Toronto and the GTA."
+        content="Compassionate private PSW home care for individuals and families plus dependable healthcare staffing across Toronto and the GTA."
     >
 
-    <meta property="og:type" content="website">
+    <meta
+        property="og:type"
+        content="website"
+    >
 
     <meta
         property="og:image"
@@ -56,7 +59,7 @@
 
 
     <!-- =====================================================
-         CSS
+         MAIN CSS
     ====================================================== -->
 
     <link
@@ -66,13 +69,14 @@
 
 
     <!-- =====================================================
-         EXTRA IMAGE STYLING
-         You can later move this into style.css
+         ADDITIONAL HOMEPAGE CSS
     ====================================================== -->
 
     <style>
 
-        /* HERO IMAGE */
+        /* ==========================================
+           HERO IMAGE
+        ========================================== */
 
         .hero-photo-wrapper {
             position: relative;
@@ -92,10 +96,11 @@
 
         .hero-photo-card {
             position: absolute;
+
             left: -30px;
             bottom: 30px;
 
-            width: 290px;
+            width: 310px;
 
             background: white;
 
@@ -122,16 +127,22 @@
         .hero-photo-card a {
             color: #0b8f87;
             font-weight: bold;
+            text-decoration: none;
         }
 
 
-
-        /* ABOUT HOME IMAGE */
+        /* ==========================================
+           ABOUT SECTION
+        ========================================== */
 
         .home-about-grid {
             display: grid;
-            grid-template-columns: 0.9fr 1fr;
+
+            grid-template-columns:
+                0.9fr 1fr;
+
             gap: 75px;
+
             align-items: center;
         }
 
@@ -142,13 +153,17 @@
         .home-about-photo img {
             width: 100%;
             height: 480px;
+
             object-fit: cover;
+
             border-radius: 14px;
+
             display: block;
         }
 
         .photo-badge {
             position: absolute;
+
             right: -20px;
             bottom: 25px;
 
@@ -161,7 +176,7 @@
 
             box-shadow:
                 0 12px 30px
-                rgba(0,0,0,0.18);
+                rgba(0, 0, 0, 0.18);
         }
 
         .photo-badge strong,
@@ -175,91 +190,246 @@
         }
 
 
+        /* ==========================================
+           TWO PATHWAYS
+        ========================================== */
 
-        /* INDUSTRY PHOTO CARDS */
+        .pathways-section {
+            padding: 90px 0;
 
-        .industry-photo-grid {
+            background: #f7fafb;
+        }
+
+        .pathways-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 25px;
+
+            grid-template-columns:
+                repeat(2, 1fr);
+
+            gap: 30px;
+
             margin-top: 45px;
         }
 
-        .industry-photo-card {
-            position: relative;
-            height: 390px;
-            overflow: hidden;
-            border-radius: 14px;
+        .pathway-card {
+            background: white;
+
+            padding: 40px;
+
+            border-radius: 16px;
+
+            border:
+                1px solid #e5eeee;
+
+            box-shadow:
+                0 14px 38px
+                rgba(9, 47, 70, 0.08);
         }
 
-        .industry-photo-card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+        .pathway-number {
+            width: 48px;
+            height: 48px;
 
-            transition:
-                transform 0.4s ease;
-        }
+            display: flex;
 
-        .industry-photo-card:hover img {
-            transform: scale(1.05);
-        }
+            align-items: center;
+            justify-content: center;
 
-        .industry-photo-card::after {
-            content: "";
+            border-radius: 50%;
 
-            position: absolute;
-            inset: 0;
-
-            background:
-                linear-gradient(
-                    to top,
-                    rgba(5, 37, 54, 0.95),
-                    rgba(5, 37, 54, 0.05)
-                );
-        }
-
-        .industry-photo-content {
-            position: absolute;
-
-            left: 0;
-            bottom: 0;
-
-            z-index: 2;
-
+            background: #0b8f87;
             color: white;
-
-            padding: 30px;
-        }
-
-        .industry-photo-content span {
-            color: #85ded9;
-
-            font-size: 12px;
 
             font-weight: bold;
 
-            letter-spacing: 1.5px;
+            margin-bottom: 20px;
         }
 
-        .industry-photo-content h3 {
+        .pathway-card h3 {
+            color: #092f46;
+
+            font-size: 28px;
+
+            margin-bottom: 15px;
+        }
+
+        .pathway-card p {
+            color: #667085;
+
+            line-height: 1.7;
+
+            margin-bottom: 18px;
+        }
+
+        .pathway-card ul {
+            color: #475467;
+
+            padding-left: 20px;
+
+            margin-bottom: 25px;
+        }
+
+        .pathway-card li {
+            margin-bottom: 9px;
+        }
+
+
+        /* ==========================================
+           PRIVATE HOME CARE SERVICES
+        ========================================== */
+
+        .home-care-section {
+            padding: 90px 0;
+
+            background: white;
+        }
+
+        .home-care-grid {
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 24px;
+
+            margin-top: 45px;
+        }
+
+        .home-care-card {
+            background: #f8fbfb;
+
+            border:
+                1px solid #e2eeee;
+
+            border-radius: 14px;
+
+            padding: 28px;
+
+            transition:
+                transform 0.25s ease,
+                box-shadow 0.25s ease;
+        }
+
+        .home-care-card:hover {
+            transform:
+                translateY(-5px);
+
+            box-shadow:
+                0 16px 34px
+                rgba(9, 47, 70, 0.10);
+        }
+
+        .home-care-card .service-number {
+            color: #0b8f87;
+
+            font-size: 13px;
+
+            font-weight: bold;
+
+            letter-spacing: 1.4px;
+
+            margin-bottom: 12px;
+        }
+
+        .home-care-card h3 {
+            color: #092f46;
+
+            font-size: 21px;
+
+            margin-bottom: 10px;
+        }
+
+        .home-care-card p {
+            color: #667085;
+
+            line-height: 1.7;
+        }
+
+
+        /* ==========================================
+           HOSPITAL TO HOME
+        ========================================== */
+
+        .hospital-home-section {
+            padding: 90px 0;
+
+            background: #092f46;
+
+            color: white;
+        }
+
+        .hospital-home-grid {
+            display: grid;
+
+            grid-template-columns:
+                1.05fr 0.95fr;
+
+            gap: 60px;
+
+            align-items: center;
+        }
+
+        .hospital-home-section
+        .section-label {
+            color: #85ded9;
+        }
+
+        .hospital-home-section h2 {
+            color: white;
+
+            font-size: 42px;
+
+            line-height: 1.15;
+
+            margin-bottom: 20px;
+        }
+
+        .hospital-home-section p {
+            color: #d9e4e8;
+
+            line-height: 1.8;
+
+            margin-bottom: 18px;
+        }
+
+        .hospital-support-box {
+            background: white;
+
+            color: #092f46;
+
+            padding: 35px;
+
+            border-radius: 14px;
+        }
+
+        .hospital-support-box h3 {
             font-size: 25px;
 
-            margin:
-                7px 0 5px;
+            margin-bottom: 20px;
         }
 
-        .industry-photo-content p {
-            color: #e4eeee;
+        .hospital-support-box ul {
+            padding-left: 20px;
+
+            margin-bottom: 25px;
+        }
+
+        .hospital-support-box li {
+            color: #475467;
+
+            margin-bottom: 10px;
         }
 
 
-
-        /* CAREER IMAGE */
+        /* ==========================================
+           CAREER IMAGE
+        ========================================== */
 
         .career-photo {
             width: 100%;
+
             height: 500px;
+
             object-fit: cover;
 
             border-radius: 14px;
@@ -268,18 +438,31 @@
         }
 
 
+        /* ==========================================
+           RESPONSIVE
+        ========================================== */
 
-        /* RESPONSIVE IMAGES */
+        @media (max-width: 950px) {
+
+            .home-care-grid {
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+            .hospital-home-grid {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
 
         @media (max-width: 850px) {
 
-            .home-about-grid {
+            .home-about-grid,
+            .pathways-grid {
                 grid-template-columns: 1fr;
-                gap: 45px;
-            }
 
-            .industry-photo-grid {
-                grid-template-columns: 1fr;
+                gap: 45px;
             }
 
             .hero-photo-card {
@@ -316,12 +499,16 @@
                 margin-top: 12px;
             }
 
-            .career-photo {
-                height: 400px;
+            .home-care-grid {
+                grid-template-columns: 1fr;
             }
 
-            .industry-photo-card {
-                height: 340px;
+            .hospital-home-section h2 {
+                font-size: 34px;
+            }
+
+            .career-photo {
+                height: 400px;
             }
 
         }
@@ -334,29 +521,19 @@
     ====================================================== -->
 
     <script type="application/ld+json">
-
     {
         "@context": "https://schema.org",
-
         "@type": "Organization",
-
         "name": "Juels Health Care Corporation",
-
-        "description":
-        "Healthcare staffing and Personal Support Worker staffing services.",
-
-        "url":
-        "https://www.yourdomain.com/",
-
+        "description": "Private Personal Support Worker home care and healthcare staffing services across Toronto and the Greater Toronto Area.",
+        "url": "https://juelshealthcareagency.ca/",
         "areaServed": [
             "Toronto",
             "Scarborough",
             "Greater Toronto Area"
         ]
     }
-
     </script>
-
 
 </head>
 
@@ -380,7 +557,7 @@
 
             <span>|</span>
 
-            <a href="tel:+2897753074">
+            <a href="tel:+12897753074">
                 Call Us
             </a>
 
@@ -411,43 +588,33 @@
 
             <!-- LOGO -->
 
-            <a
-                href="index.html"
-                class="logo"
-                aria-label="Juels Health Care Home"
-            >
+         <a
+    href="index.html"
+    class="logo"
+    aria-label="Juels Health Care Home"
+>
 
-                <div class="logo-text">
+    <img
+        src="images/juels-logo.png"
+        alt="Juels Health Care"
+        class="website-logo"
+    >
 
-                    <span class="logo-main">
-                        JUELS
-                    </span>
-
-                    <span class="logo-sub">
-                        HEALTH CARE
-                    </span>
-
-                </div>
-
-            </a>
+</a>
 
 
-
-            <!-- MOBILE MENU -->
+            <!-- MOBILE BUTTON -->
 
             <button
                 class="menu-toggle"
                 id="menuToggle"
                 aria-label="Open navigation menu"
             >
-
                 ☰
-
             </button>
 
 
-
-            <!-- NAVIGATION -->
+            <!-- NAVIGATION LINKS -->
 
             <ul
                 class="nav-links"
@@ -468,8 +635,8 @@
 
                 <li>
 
-                    <a href="about.html">
-                        About Us
+                    <a href="#home-care">
+                        Private Home Care
                     </a>
 
                 </li>
@@ -478,7 +645,7 @@
                 <li>
 
                     <a href="services.html">
-                        Staffing Services
+                        Healthcare Staffing
                     </a>
 
                 </li>
@@ -486,8 +653,8 @@
 
                 <li>
 
-                    <a href="industries.html">
-                        Industries
+                    <a href="about.html">
+                        About Us
                     </a>
 
                 </li>
@@ -510,20 +677,17 @@
 
                 </li>
 
-
             </ul>
 
 
-
-            <!-- REQUEST STAFF BUTTON -->
+            <!-- MAIN NAV BUTTON -->
 
             <a
-                href="request-staff.html"
+                href="contact.html"
                 class="nav-cta"
             >
-                Request Staff
+                Request Home Care
             </a>
-
 
         </nav>
 
@@ -537,7 +701,7 @@
 
 
 <!-- =========================================================
-     HERO SECTION
+     HERO
 ========================================================== -->
 
 <section class="hero">
@@ -549,67 +713,63 @@
 
         <div class="hero-content">
 
-
             <p class="eyebrow">
-                PROFESSIONAL HEALTHCARE STAFFING
+
+                PRIVATE HOME CARE
+                & HEALTHCARE STAFFING
+
             </p>
 
 
             <h1>
 
-                Reliable PSW Staffing
-                for Healthcare Organizations
+                Compassionate Home Care
+                & Reliable Healthcare Staffing
 
             </h1>
 
 
             <p class="hero-description">
 
-                Juels Health Care connects healthcare
-                organizations with dependable Personal Support
-                Workers and healthcare professionals for
-                temporary, ongoing and contract staffing needs
-                across Toronto and the Greater Toronto Area.
+                Juels Health Care provides dependable
+                Personal Support Worker services directly
+                to individuals and families in their homes,
+                while also supporting healthcare
+                organizations with qualified healthcare
+                staffing across Toronto and the Greater
+                Toronto Area.
 
             </p>
 
 
-
             <div class="hero-buttons">
+
+                <a
+                    href="#home-care"
+                    class="btn btn-primary"
+                >
+                    I Need Care at Home
+                </a>
 
 
                 <a
                     href="request-staff.html"
-                    class="btn btn-primary"
-                >
-
-                    Request Staff
-
-                </a>
-
-
-                <a
-                    href="careers.html"
                     class="btn btn-outline"
                 >
-
-                    Join Our Team
-
+                    I Need Healthcare Staff
                 </a>
 
-
             </div>
-
 
 
             <div class="hero-small-text">
 
                 <span>
-                    ✓ Flexible Staffing
+                    ✓ Private PSW Home Care
                 </span>
 
                 <span>
-                    ✓ Professional Support
+                    ✓ Hospital-to-Home Support
                 </span>
 
                 <span>
@@ -618,19 +778,17 @@
 
             </div>
 
-
         </div>
 
 
 
-        <!-- RIGHT SIDE IMAGE -->
+        <!-- RIGHT IMAGE -->
 
         <div class="hero-photo-wrapper">
 
-
             <img
                 src="images/hero-psw.jpg"
-                alt="Personal Support Worker assisting a senior in Toronto"
+                alt="Personal Support Worker assisting a senior at home"
                 class="hero-photo"
             >
 
@@ -638,23 +796,27 @@
             <div class="hero-photo-card">
 
                 <h3>
-                    Need Healthcare Staff?
+                    Need Home Care Quickly?
                 </h3>
 
                 <p>
-                    Tell us about your organization's
-                    staffing requirements.
+
+                    Talk to our team about
+                    personal care, post-hospital
+                    support, respite, overnight
+                    or ongoing PSW care.
+
                 </p>
 
-                <a href="request-staff.html">
-                    Request Staff →
+                <a href="contact.html">
+
+                    Request Home Care →
+
                 </a>
 
             </div>
 
-
         </div>
-
 
     </div>
 
@@ -674,17 +836,18 @@
         <div class="trust-item">
 
             <div class="trust-icon">
-                ✓
+                ♡
             </div>
 
             <div>
 
                 <h3>
-                    Screened Professionals
+                    Compassionate Care
                 </h3>
 
                 <p>
-                    Credential-focused worker screening.
+                    Respectful support for
+                    individuals and families.
                 </p>
 
             </div>
@@ -696,17 +859,18 @@
         <div class="trust-item">
 
             <div class="trust-icon">
-                ♡
+                ✓
             </div>
 
             <div>
 
                 <h3>
-                    Quality Care
+                    Screened Professionals
                 </h3>
 
                 <p>
-                    Compassion and professionalism matter.
+                    Credential-focused
+                    healthcare worker screening.
                 </p>
 
             </div>
@@ -724,11 +888,12 @@
             <div>
 
                 <h3>
-                    Flexible Coverage
+                    Flexible Support
                 </h3>
 
                 <p>
-                    Support for changing staffing needs.
+                    Home care and staffing
+                    based on your needs.
                 </p>
 
             </div>
@@ -750,7 +915,8 @@
                 </h3>
 
                 <p>
-                    Serving Toronto and the GTA.
+                    Serving Toronto
+                    and the GTA.
                 </p>
 
             </div>
@@ -765,7 +931,188 @@
 
 
 <!-- =========================================================
-     ABOUT SECTION WITH IMAGE
+     TWO CLEAR PATHWAYS
+========================================================== -->
+
+<section class="pathways-section">
+
+    <div class="container">
+
+
+        <div class="section-header-centered">
+
+            <p class="section-label">
+
+                HOW CAN WE SUPPORT YOU?
+
+            </p>
+
+
+            <h2>
+
+                Two Ways to Receive Support
+                From Juels Health Care
+
+            </h2>
+
+
+            <p>
+
+                Whether your family needs personal
+                support at home or your healthcare
+                organization needs dependable staff,
+                Juels Health Care is here to help.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="pathways-grid">
+
+
+            <!-- PRIVATE HOME CARE -->
+
+            <article class="pathway-card">
+
+                <div class="pathway-number">
+                    1
+                </div>
+
+
+                <h3>
+                    Private Home Care
+                </h3>
+
+
+                <p>
+
+                    Personal Support Worker care for
+                    individuals and families who want
+                    safe, respectful and dependable
+                    support in the comfort of home.
+
+                </p>
+
+
+                <ul>
+
+                    <li>
+                        Post-hospital support
+                    </li>
+
+                    <li>
+                        Personal care
+                    </li>
+
+                    <li>
+                        Senior home care
+                    </li>
+
+                    <li>
+                        Respite care
+                    </li>
+
+                    <li>
+                        Overnight care
+                    </li>
+
+                    <li>
+                        24-hour care
+                    </li>
+
+                </ul>
+
+
+                <a
+                    href="#home-care"
+                    class="btn btn-primary"
+                >
+
+                    Explore Home Care
+
+                </a>
+
+            </article>
+
+
+
+            <!-- STAFFING -->
+
+            <article class="pathway-card">
+
+                <div class="pathway-number">
+                    2
+                </div>
+
+
+                <h3>
+                    Healthcare Staffing
+                </h3>
+
+
+                <p>
+
+                    Flexible workforce support for
+                    healthcare organizations requiring
+                    dependable Personal Support Workers
+                    and healthcare professionals.
+
+                </p>
+
+
+                <ul>
+
+                    <li>
+                        Hospitals
+                    </li>
+
+                    <li>
+                        Retirement homes
+                    </li>
+
+                    <li>
+                        Long-term care homes
+                    </li>
+
+                    <li>
+                        Group homes
+                    </li>
+
+                    <li>
+                        Supportive housing
+                    </li>
+
+                    <li>
+                        Home care organizations
+                    </li>
+
+                </ul>
+
+
+                <a
+                    href="request-staff.html"
+                    class="btn btn-primary"
+                >
+
+                    Request Healthcare Staff
+
+                </a>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     ABOUT JUELS
 ========================================================== -->
 
 <section class="intro-section">
@@ -777,10 +1124,9 @@
 
         <div class="home-about-photo">
 
-
             <img
                 src="images/healthcare-team.jpg"
-                alt="Professional healthcare staffing team"
+                alt="Juels Health Care professional care team"
                 loading="lazy"
             >
 
@@ -788,7 +1134,7 @@
             <div class="photo-badge">
 
                 <strong>
-                    Healthcare Staffing
+                    Home Care + Staffing
                 </strong>
 
                 <span>
@@ -796,7 +1142,6 @@
                 </span>
 
             </div>
-
 
         </div>
 
@@ -808,44 +1153,61 @@
 
 
             <p class="section-label">
+
                 JUELS HEALTH CARE
+
             </p>
 
 
             <h2>
 
-                A Dependable Healthcare
-                Staffing Partner
+                Supporting People at Home
+                and Healthcare Organizations
+                in the Community
 
             </h2>
 
 
             <p>
 
-                Healthcare organizations need dependable
-                staff to maintain quality care and
-                continuity of service.
+                Juels Health Care is committed
+                to providing compassionate and
+                professional support where it
+                is needed most.
 
             </p>
 
 
             <p>
 
-                Juels Health Care provides flexible
-                healthcare staffing solutions designed to
-                help organizations manage vacancies,
-                employee absences, increased service demands
-                and ongoing staffing requirements.
+                For individuals and families,
+                we provide Personal Support Worker
+                care in the comfort of home based
+                on the client's individual needs,
+                routines and care goals.
 
             </p>
 
 
             <p>
 
-                Our focus is on connecting organizations
-                with healthcare professionals who understand
-                the importance of respectful, compassionate
-                and professional care.
+                We can provide support after
+                hospitalization or rehabilitation,
+                assistance with personal care,
+                respite for family caregivers,
+                overnight support and ongoing
+                home care.
+
+            </p>
+
+
+            <p>
+
+                We also partner with healthcare
+                organizations requiring dependable
+                workers for temporary coverage,
+                scheduled shifts, vacancies,
+                contracts and ongoing staffing needs.
 
             </p>
 
@@ -855,13 +1217,12 @@
                 class="text-link"
             >
 
-                Learn More About Juels Health Care →
+                Learn More About
+                Juels Health Care →
 
             </a>
 
-
         </div>
-
 
     </div>
 
@@ -870,7 +1231,537 @@
 
 
 <!-- =========================================================
-     SERVICES
+     PRIVATE HOME CARE SERVICES
+========================================================== -->
+
+<section
+    class="home-care-section"
+    id="home-care"
+>
+
+    <div class="container">
+
+
+        <div class="section-header-centered">
+
+            <p class="section-label">
+
+                PRIVATE HOME CARE SERVICES
+
+            </p>
+
+
+            <h2>
+
+                Personalized PSW Support
+                in the Comfort of Home
+
+            </h2>
+
+
+            <p>
+
+                Our home-care services are designed
+                to help clients remain safe,
+                comfortable and supported while
+                providing families with greater
+                peace of mind.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="home-care-grid">
+
+
+            <!-- 1 -->
+
+            <article class="home-care-card">
+
+                <div class="service-number">
+                    01
+                </div>
+
+                <h3>
+                    Post-Hospital &
+                    Rehabilitation Support
+                </h3>
+
+                <p>
+
+                    Assistance after hospital
+                    discharge, surgery or
+                    rehabilitation to help support
+                    a safer transition home.
+
+                </p>
+
+            </article>
+
+
+
+            <!-- 2 -->
+
+            <article class="home-care-card">
+
+                <div class="service-number">
+                    02
+                </div>
+
+                <h3>
+                    Personal Care
+                </h3>
+
+                <p>
+
+                    Respectful assistance with
+                    bathing, grooming, dressing,
+                    toileting and activities
+                    of daily living.
+
+                </p>
+
+            </article>
+
+
+
+            <!-- 3 -->
+
+            <article class="home-care-card">
+
+                <div class="service-number">
+                    03
+                </div>
+
+                <h3>
+                    Senior Home Care
+                </h3>
+
+                <p>
+
+                    Personalized assistance to
+                    help seniors remain comfortable,
+                    supported and independent
+                    in their homes.
+
+                </p>
+
+            </article>
+
+
+
+            <!-- 4 -->
+
+            <article class="home-care-card">
+
+                <div class="service-number">
+                    04
+                </div>
+
+                <h3>
+                    Respite Care
+                </h3>
+
+                <p>
+
+                    Temporary support that gives
+                    family caregivers time to rest,
+                    work, attend appointments or
+                    manage other responsibilities.
+
+                </p>
+
+            </article>
+
+
+
+            <!-- 5 -->
+
+            <article class="home-care-card">
+
+                <div class="service-number">
+                    05
+                </div>
+
+                <h3>
+                    Overnight Care
+                </h3>
+
+                <p>
+
+                    Overnight supervision and
+                    personal assistance for clients
+                    who may need support throughout
+                    the night.
+
+                </p>
+
+            </article>
+
+
+
+            <!-- 6 -->
+
+            <article class="home-care-card">
+
+                <div class="service-number">
+                    06
+                </div>
+
+                <h3>
+                    24-Hour Care
+                </h3>
+
+                <p>
+
+                    Coordinated around-the-clock
+                    support for clients requiring
+                    continuous assistance
+                    and supervision.
+
+                </p>
+
+            </article>
+
+
+
+            <!-- 7 -->
+
+            <article class="home-care-card">
+
+                <div class="service-number">
+                    07
+                </div>
+
+                <h3>
+                    Companionship &
+                    Daily Living Support
+                </h3>
+
+                <p>
+
+                    Friendly companionship and
+                    assistance with daily routines,
+                    meals and light household
+                    activities.
+
+                </p>
+
+            </article>
+
+
+
+            <!-- 8 -->
+
+            <article class="home-care-card">
+
+                <div class="service-number">
+                    08
+                </div>
+
+                <h3>
+                    Mobility &
+                    Transfer Assistance
+                </h3>
+
+                <p>
+
+                    Support with walking,
+                    repositioning and transfers
+                    according to the client's
+                    established care plan.
+
+                </p>
+
+            </article>
+
+
+
+            <!-- 9 -->
+
+            <article class="home-care-card">
+
+                <div class="service-number">
+                    09
+                </div>
+
+                <h3>
+                    Meal Preparation &
+                    Nutrition Support
+                </h3>
+
+                <p>
+
+                    Assistance with meal preparation,
+                    eating routines and hydration
+                    based on the client's
+                    individual needs.
+
+                </p>
+
+            </article>
+
+
+
+            <!-- 10 -->
+
+            <article class="home-care-card">
+
+                <div class="service-number">
+                    10
+                </div>
+
+                <h3>
+                    Medication Reminders
+                </h3>
+
+                <p>
+
+                    Medication reminders and
+                    appropriate assistance within
+                    the Personal Support Worker's
+                    role and client's care plan.
+
+                </p>
+
+            </article>
+
+
+
+            <!-- 11 -->
+
+            <article class="home-care-card">
+
+                <div class="service-number">
+                    11
+                </div>
+
+                <h3>
+                    Dementia &
+                    Memory Support
+                </h3>
+
+                <p>
+
+                    Compassionate assistance with
+                    routines, personal care,
+                    companionship and day-to-day
+                    support for clients experiencing
+                    memory changes.
+
+                </p>
+
+            </article>
+
+
+
+            <!-- 12 -->
+
+            <article class="home-care-card">
+
+                <div class="service-number">
+                    12
+                </div>
+
+                <h3>
+                    Palliative &
+                    Family Support
+                </h3>
+
+                <p>
+
+                    Non-medical personal support
+                    and comfort-focused assistance
+                    alongside the client's family
+                    and healthcare team.
+
+                </p>
+
+            </article>
+
+
+        </div>
+
+
+
+        <div class="center-button">
+
+            <a
+                href="contact.html"
+                class="btn btn-primary"
+            >
+
+                Request Private Home Care
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     HOSPITAL TO HOME
+========================================================== -->
+
+<section class="hospital-home-section">
+
+    <div class="container hospital-home-grid">
+
+
+        <!-- LEFT -->
+
+        <div>
+
+            <p class="section-label">
+
+                HOSPITAL-TO-HOME SUPPORT
+
+            </p>
+
+
+            <h2>
+
+                Coming Home From the Hospital?
+                We're Here to Help.
+
+            </h2>
+
+
+            <p>
+
+                Returning home after hospitalization,
+                surgery or rehabilitation can require
+                additional personal support.
+
+            </p>
+
+
+            <p>
+
+                Juels Health Care works with
+                individuals, families and healthcare
+                professionals to help arrange
+                Personal Support Worker care
+                at home.
+
+            </p>
+
+
+            <p>
+
+                Our team can discuss the client's
+                needs, preferred schedule,
+                desired start date and level
+                of support required.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a
+                    href="contact.html"
+                    class="btn btn-white"
+                >
+
+                    Arrange Home Care
+
+                </a>
+
+
+                <a
+                    href="contact.html"
+                    class="btn btn-transparent"
+                >
+
+                    Refer a Client
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- RIGHT -->
+
+        <div class="hospital-support-box">
+
+            <h3>
+
+                Home Support
+                Can Include:
+
+            </h3>
+
+
+            <ul>
+
+                <li>
+                    Personal care and hygiene
+                </li>
+
+                <li>
+                    Mobility and transfer assistance
+                </li>
+
+                <li>
+                    Meal preparation
+                </li>
+
+                <li>
+                    Hydration support
+                </li>
+
+                <li>
+                    Medication reminders
+                </li>
+
+                <li>
+                    Companionship
+                </li>
+
+                <li>
+                    Overnight care
+                </li>
+
+                <li>
+                    Respite for family caregivers
+                </li>
+
+                <li>
+                    Ongoing PSW support
+                </li>
+
+            </ul>
+
+
+            <a
+                href="tel:+12897753074"
+                class="btn btn-primary"
+            >
+
+                Call (289) 775-3074
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     HEALTHCARE STAFFING
 ========================================================== -->
 
 <section class="services-section">
@@ -882,24 +1773,26 @@
 
 
             <p class="section-label">
-                OUR STAFFING SOLUTIONS
+
+                HEALTHCARE STAFFING
+
             </p>
 
 
             <h2>
 
-                Healthcare Staffing Built
-                Around Your Needs
+                Flexible Staffing Support
+                for Healthcare Organizations
 
             </h2>
 
 
             <p>
 
-                From temporary coverage to ongoing staffing
-                support, Juels Health Care works with
-                healthcare organizations to understand their
-                workforce requirements.
+                Juels Health Care works with
+                healthcare organizations requiring
+                temporary, scheduled, contract
+                or ongoing workforce support.
 
             </p>
 
@@ -919,17 +1812,21 @@
                     01
                 </div>
 
+
                 <h3>
                     PSW Staffing
                 </h3>
 
+
                 <p>
 
-                    Personal Support Workers for organizations
-                    requiring dependable frontline care
-                    support.
+                    Personal Support Workers for
+                    healthcare organizations
+                    requiring dependable
+                    frontline care support.
 
                 </p>
+
 
                 <ul>
 
@@ -947,15 +1844,18 @@
 
                 </ul>
 
+
                 <a href="services.html">
+
                     Learn More →
+
                 </a>
 
             </article>
 
 
 
-            <!-- TEMPORARY -->
+            <!-- TEMP -->
 
             <article class="service-card">
 
@@ -963,17 +1863,23 @@
                     02
                 </div>
 
+
                 <h3>
-                    Temporary & Relief Staffing
+
+                    Temporary &
+                    Relief Staffing
+
                 </h3>
+
 
                 <p>
 
-                    Flexible staffing solutions for
-                    organizations experiencing temporary
-                    workforce shortages.
+                    Flexible staffing solutions
+                    for organizations experiencing
+                    temporary workforce shortages.
 
                 </p>
+
 
                 <ul>
 
@@ -991,8 +1897,11 @@
 
                 </ul>
 
+
                 <a href="services.html">
+
                     Learn More →
+
                 </a>
 
             </article>
@@ -1007,17 +1916,24 @@
                     03
                 </div>
 
+
                 <h3>
-                    Long-Term Staffing
+
+                    Long-Term &
+                    Contract Staffing
+
                 </h3>
+
 
                 <p>
 
-                    Consistent staffing support for
-                    organizations requiring healthcare
-                    professionals over longer periods.
+                    Consistent workforce support
+                    for organizations requiring
+                    healthcare professionals
+                    over longer periods.
 
                 </p>
+
 
                 <ul>
 
@@ -1035,8 +1951,11 @@
 
                 </ul>
 
+
                 <a href="services.html">
+
                     Learn More →
+
                 </a>
 
             </article>
@@ -1049,24 +1968,24 @@
         <div class="center-button">
 
             <a
-                href="services.html"
+                href="request-staff.html"
                 class="btn btn-primary"
             >
 
-                Explore All Staffing Services
+                Request Healthcare Staff
 
             </a>
 
         </div>
-
 
     </div>
 
 </section>
 
 
+
 <!-- =========================================================
-     INDUSTRIES WITH PHOTOS
+     WHO WE SUPPORT
 ========================================================== -->
 
 <section class="industries-section">
@@ -1076,38 +1995,44 @@
 
         <div class="section-heading">
 
+
             <p class="section-label">
+
                 WHO WE SUPPORT
+
             </p>
 
 
             <h2>
+
                 Supporting Organizations
                 Across the Healthcare Sector
+
             </h2>
 
 
             <p>
-                Juels Health Care provides healthcare staffing
-                support to hospitals, retirement homes,
-                long-term care homes, home care organizations,
-                group homes, supportive housing providers and
-                other healthcare organizations across Toronto
+
+                Juels Health Care provides
+                healthcare staffing support to
+                hospitals, retirement homes,
+                long-term care homes,
+                home care organizations,
+                group homes, supportive housing
+                providers and other healthcare
+                organizations across Toronto
                 and the GTA.
+
             </p>
 
         </div>
 
 
 
-        <!-- =====================================================
-             INDUSTRY PHOTO CARDS
-        ====================================================== -->
-
         <div class="all-industry-photo-grid">
 
 
-            <!-- RETIREMENT HOMES -->
+            <!-- RETIREMENT -->
 
             <a
                 href="industries.html"
@@ -1116,7 +2041,7 @@
 
                 <img
                     src="images/retirement-home.jpg"
-                    alt="Personal Support Worker supporting a senior in a retirement home"
+                    alt="PSW supporting a senior in a retirement home"
                     loading="lazy"
                 >
 
@@ -1131,7 +2056,7 @@
                     </h3>
 
                     <p>
-                        Dependable PSW staffing support
+                        Dependable PSW staffing
                         for retirement residences.
                     </p>
 
@@ -1141,7 +2066,7 @@
 
 
 
-            <!-- LONG-TERM CARE -->
+            <!-- LTC -->
 
             <a
                 href="industries.html"
@@ -1150,7 +2075,7 @@
 
                 <img
                     src="images/long-term-care.jpg"
-                    alt="Healthcare worker providing support in a long-term care home"
+                    alt="Healthcare worker in a long-term care home"
                     loading="lazy"
                 >
 
@@ -1165,8 +2090,8 @@
                     </h3>
 
                     <p>
-                        Healthcare staffing support for
-                        long-term care environments.
+                        Healthcare staffing
+                        support for LTC homes.
                     </p>
 
                 </div>
@@ -1175,7 +2100,7 @@
 
 
 
-            <!-- HOSPITALS -->
+            <!-- HOSPITAL -->
 
             <a
                 href="industries.html"
@@ -1184,7 +2109,7 @@
 
                 <img
                     src="images/hospital-staffing.jpg"
-                    alt="Healthcare professionals working together in a hospital"
+                    alt="Healthcare professionals in a hospital"
                     loading="lazy"
                 >
 
@@ -1199,8 +2124,8 @@
                     </h3>
 
                     <p>
-                        Flexible PSW, RPN and healthcare
-                        staffing support for hospitals.
+                        Flexible staffing support
+                        for hospital care teams.
                     </p>
 
                 </div>
@@ -1218,7 +2143,7 @@
 
                 <img
                     src="images/home-care.jpg"
-                    alt="Personal Support Worker providing home care support"
+                    alt="Personal Support Worker providing home care"
                     loading="lazy"
                 >
 
@@ -1233,8 +2158,8 @@
                     </h3>
 
                     <p>
-                        Flexible workforce support for
-                        home and community care providers.
+                        Workforce support for
+                        home and community care.
                     </p>
 
                 </div>
@@ -1252,7 +2177,7 @@
 
                 <img
                     src="images/group-home.jpg"
-                    alt="Healthcare professional supporting residents in a group home"
+                    alt="Healthcare professional in a group home"
                     loading="lazy"
                 >
 
@@ -1267,8 +2192,8 @@
                     </h3>
 
                     <p>
-                        Compassionate staffing support
-                        for residential care environments.
+                        Compassionate staffing
+                        for residential care.
                     </p>
 
                 </div>
@@ -1286,7 +2211,7 @@
 
                 <img
                     src="images/supportive-housing.jpg"
-                    alt="Personal Support Worker assisting a client in supportive housing"
+                    alt="PSW supporting a client in supportive housing"
                     loading="lazy"
                 >
 
@@ -1301,42 +2226,8 @@
                     </h3>
 
                     <p>
-                        Staffing and personal care support
-                        for supportive living environments.
-                    </p>
-
-                </div>
-
-            </a>
-
-
-
-            <!-- HEALTHCARE ORGANIZATIONS -->
-
-            <a
-                href="industries.html"
-                class="industry-photo-card-new"
-            >
-
-                <img
-                    src="images/home-care.jpg"
-                    alt="Healthcare professionals working together in a healthcare facility"
-                    loading="lazy"
-                >
-
-                <div class="industry-photo-overlay">
-
-                    <span>
-                        07
-                    </span>
-
-                    <h3>
-                        Healthcare Organizations
-                    </h3>
-
-                    <p>
-                        Professional workforce support
-                        for healthcare and community organizations.
+                        Staffing and personal
+                        care support.
                     </p>
 
                 </div>
@@ -1347,8 +2238,6 @@
         </div>
 
 
-
-        <!-- EXPLORE BUTTON -->
 
         <div class="center-button">
 
@@ -1356,11 +2245,12 @@
                 href="industries.html"
                 class="btn btn-primary"
             >
+
                 Explore Industries We Serve
+
             </a>
 
         </div>
-
 
     </div>
 
@@ -1369,7 +2259,146 @@
 
 
 <!-- =========================================================
-     EMPLOYERS
+     HOW HOME CARE WORKS
+========================================================== -->
+
+<section class="process-section">
+
+    <div class="container">
+
+
+        <div class="section-header-centered">
+
+            <p class="section-label">
+
+                HOW HOME CARE WORKS
+
+            </p>
+
+
+            <h2>
+
+                A Simple Way to
+                Arrange Care at Home
+
+            </h2>
+
+        </div>
+
+
+
+        <div class="process-grid">
+
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    01
+                </span>
+
+
+                <h3>
+                    Contact Us
+                </h3>
+
+
+                <p>
+
+                    Tell us about the person
+                    who needs care, their
+                    location and the type
+                    of support required.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    02
+                </span>
+
+
+                <h3>
+                    Discuss Care Needs
+                </h3>
+
+
+                <p>
+
+                    We discuss routines,
+                    care requirements,
+                    preferred schedule and
+                    desired start date.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    03
+                </span>
+
+
+                <h3>
+                    Arrange Support
+                </h3>
+
+
+                <p>
+
+                    Our team works to arrange
+                    appropriate Personal Support
+                    Worker care based on
+                    the client's needs.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    04
+                </span>
+
+
+                <h3>
+                    Ongoing Support
+                </h3>
+
+
+                <p>
+
+                    We maintain communication
+                    with the client, family
+                    and care team while
+                    services continue.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     HEALTHCARE EMPLOYERS
 ========================================================== -->
 
 <section class="employer-section">
@@ -1381,13 +2410,15 @@
 
 
             <p class="section-label light-label">
+
                 FOR HEALTHCARE EMPLOYERS
+
             </p>
 
 
             <h2>
 
-                Need Qualified PSWs
+                Need Qualified Healthcare Staff
                 for Your Organization?
 
             </h2>
@@ -1395,10 +2426,12 @@
 
             <p>
 
-                Whether you need additional staff for one
-                shift or require ongoing staffing support,
-                Juels Health Care can discuss a solution
-                based on your organization's needs.
+                Whether you need additional
+                staff for one shift or require
+                ongoing staffing support,
+                Juels Health Care can discuss
+                a solution based on your
+                organization's needs.
 
             </p>
 
@@ -1435,7 +2468,6 @@
 
             </a>
 
-
         </div>
 
 
@@ -1444,22 +2476,28 @@
 
 
             <p class="small-heading">
+
                 STAFFING REQUEST
+
             </p>
 
 
             <h3>
+
                 Tell Us What You Need
+
             </h3>
 
 
             <p>
 
-                Complete our staffing inquiry form with
-                your organization, location, staffing
-                requirements and desired start date.
+                Complete our staffing inquiry
+                form with your organization,
+                location, staffing requirements
+                and desired start date.
 
             </p>
+
 
 
             <div class="request-step">
@@ -1469,10 +2507,12 @@
                 </span>
 
                 <p>
-                    Tell us about your organization.
+                    Tell us about
+                    your organization.
                 </p>
 
             </div>
+
 
 
             <div class="request-step">
@@ -1482,10 +2522,12 @@
                 </span>
 
                 <p>
-                    Tell us which staff you require.
+                    Tell us which
+                    staff you require.
                 </p>
 
             </div>
+
 
 
             <div class="request-step">
@@ -1495,10 +2537,12 @@
                 </span>
 
                 <p>
-                    Our team reviews your request.
+                    Our team reviews
+                    your request.
                 </p>
 
             </div>
+
 
 
             <a
@@ -1513,7 +2557,6 @@
 
         </div>
 
-
     </div>
 
 </section>
@@ -1521,7 +2564,7 @@
 
 
 <!-- =========================================================
-     CAREERS WITH IMAGE
+     CAREERS
 ========================================================== -->
 
 <section class="career-section">
@@ -1529,30 +2572,30 @@
     <div class="container career-grid">
 
 
-        <!-- CAREER IMAGE -->
+        <!-- IMAGE -->
 
         <div class="career-image">
 
-
             <img
                 src="images/career-psw.jpg"
-                alt="Professional Personal Support Worker healthcare career"
+                alt="Professional Personal Support Worker"
                 class="career-photo"
                 loading="lazy"
             >
-
 
         </div>
 
 
 
-        <!-- CAREER TEXT -->
+        <!-- CONTENT -->
 
         <div class="career-content">
 
 
             <p class="section-label">
+
                 FOR HEALTHCARE PROFESSIONALS
+
             </p>
 
 
@@ -1566,10 +2609,13 @@
 
             <p>
 
-                We are interested in connecting with
-                qualified healthcare professionals who
-                are committed to providing respectful,
-                dependable and compassionate care.
+                We are interested in connecting
+                with qualified healthcare
+                professionals who are committed
+                to providing respectful,
+                dependable and compassionate
+                care in homes and healthcare
+                settings.
 
             </p>
 
@@ -1605,7 +2651,6 @@
 
         </div>
 
-
     </div>
 
 </section>
@@ -1613,125 +2658,7 @@
 
 
 <!-- =========================================================
-     HOW IT WORKS
-========================================================== -->
-
-<section class="process-section">
-
-    <div class="container">
-
-
-        <div class="section-header-centered">
-
-            <p class="section-label">
-                HOW IT WORKS
-            </p>
-
-            <h2>
-                A Simple Staffing Process
-            </h2>
-
-        </div>
-
-
-
-        <div class="process-grid">
-
-
-            <div class="process-card">
-
-                <span class="process-number">
-                    01
-                </span>
-
-                <h3>
-                    Submit
-                </h3>
-
-                <p>
-
-                    Send us your organization's
-                    staffing requirements.
-
-                </p>
-
-            </div>
-
-
-
-            <div class="process-card">
-
-                <span class="process-number">
-                    02
-                </span>
-
-                <h3>
-                    Review
-                </h3>
-
-                <p>
-
-                    Our team reviews your
-                    staffing requirements.
-
-                </p>
-
-            </div>
-
-
-
-            <div class="process-card">
-
-                <span class="process-number">
-                    03
-                </span>
-
-                <h3>
-                    Match
-                </h3>
-
-                <p>
-
-                    Suitable healthcare professionals
-                    are considered for your needs.
-
-                </p>
-
-            </div>
-
-
-
-            <div class="process-card">
-
-                <span class="process-number">
-                    04
-                </span>
-
-                <h3>
-                    Support
-                </h3>
-
-                <p>
-
-                    We maintain communication throughout
-                    the staffing relationship.
-
-                </p>
-
-            </div>
-
-
-        </div>
-
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================================================
-     SERVICE AREA / SEO
+     SERVICE AREA
 ========================================================== -->
 
 <section class="location-section">
@@ -1742,13 +2669,17 @@
         <div>
 
             <p class="section-label">
+
                 SERVICE AREA
+
             </p>
+
 
             <h2>
 
-                PSW Staffing in Toronto
-                and the GTA
+                Home Care &
+                Healthcare Staffing
+                Across Toronto and the GTA
 
             </h2>
 
@@ -1758,27 +2689,33 @@
 
         <div>
 
+
             <p>
 
-                Juels Health Care provides healthcare
-                staffing support to organizations throughout
-                Toronto, Scarborough and communities across
-                the Greater Toronto Area.
+                Juels Health Care provides
+                private Personal Support Worker
+                home care and healthcare staffing
+                services throughout Toronto,
+                Scarborough and communities
+                across the Greater Toronto Area.
 
             </p>
 
 
             <p>
 
-                If your healthcare organization requires
-                Personal Support Workers, temporary staffing,
-                contract workers or ongoing workforce support,
-                contact our team to discuss your requirements.
+                Whether you are a family arranging
+                support at home, a healthcare
+                professional planning a client's
+                transition home, or an organization
+                requiring additional staff,
+                contact our team to discuss
+                your needs.
 
             </p>
+
 
         </div>
-
 
     </div>
 
@@ -1796,22 +2733,25 @@
 
 
         <p class="cta-small">
-            LET'S WORK TOGETHER
+
+            HOW CAN WE SUPPORT YOU?
+
         </p>
 
 
         <h2>
 
-            Reliable Staffing Starts
-            With the Right Partner
+            Care at Home or Healthcare Staffing —
+            Start With Juels Health Care
 
         </h2>
 
 
         <p>
 
-            Tell us about your staffing needs and discover
-            how Juels Health Care can support your organization.
+            Tell us what you need and
+            our team will help you
+            determine the next step.
 
         </p>
 
@@ -1821,8 +2761,18 @@
 
 
             <a
-                href="request-staff.html"
+                href="contact.html"
                 class="btn btn-white"
+            >
+
+                Request Home Care
+
+            </a>
+
+
+            <a
+                href="request-staff.html"
+                class="btn btn-transparent"
             >
 
                 Request Staff
@@ -1830,18 +2780,7 @@
             </a>
 
 
-            <a
-                href="contact.html"
-                class="btn btn-transparent"
-            >
-
-                Contact Our Team
-
-            </a>
-
-
         </div>
-
 
     </div>
 
@@ -1857,6 +2796,7 @@
 ========================================================== -->
 
 <footer class="footer">
+
 
     <div class="container footer-grid">
 
@@ -1879,8 +2819,11 @@
 
             <p>
 
-                Professional healthcare staffing solutions
-                for organizations across Toronto and the
+                Compassionate private home care
+                for individuals and families,
+                plus dependable healthcare
+                staffing solutions for organizations
+                across Toronto and the
                 Greater Toronto Area.
 
             </p>
@@ -1894,11 +2837,14 @@
 
         <div>
 
+
             <h3>
                 Quick Links
             </h3>
 
+
             <ul>
+
 
                 <li>
 
@@ -1908,6 +2854,25 @@
 
                 </li>
 
+
+                <li>
+
+                    <a href="#home-care">
+                        Private Home Care
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a href="services.html">
+                        Healthcare Staffing
+                    </a>
+
+                </li>
+
+
                 <li>
 
                     <a href="about.html">
@@ -1916,37 +2881,44 @@
 
                 </li>
 
-                <li>
-
-                    <a href="services.html">
-                        Staffing Services
-                    </a>
-
-                </li>
-
-                <li>
-
-                    <a href="industries.html">
-                        Industries
-                    </a>
-
-                </li>
 
             </ul>
+
 
         </div>
 
 
 
-        <!-- WORK WITH US -->
+        <!-- SUPPORT -->
 
         <div>
 
+
             <h3>
-                Work With Us
+                Get Support
             </h3>
 
+
             <ul>
+
+
+                <li>
+
+                    <a href="contact.html">
+                        Request Home Care
+                    </a>
+
+                </li>
+
+
+                <li>
+
+                    <a href="contact.html">
+                        Refer a Client
+                    </a>
+
+                </li>
+
 
                 <li>
 
@@ -1956,6 +2928,7 @@
 
                 </li>
 
+
                 <li>
 
                     <a href="careers.html">
@@ -1964,15 +2937,9 @@
 
                 </li>
 
-                <li>
-
-                    <a href="contact.html">
-                        Contact Us
-                    </a>
-
-                </li>
 
             </ul>
+
 
         </div>
 
@@ -1982,29 +2949,39 @@
 
         <div>
 
+
             <h3>
                 Contact
             </h3>
+
 
             <p>
                 Toronto, Ontario
             </p>
 
+
             <p>
 
                 <a href="tel:+12897753074">
-                    Phone: (289) 775-3074, 
+
+                    Phone:
+                    (289) 775-3074
+
                 </a>
 
             </p>
+
 
             <p>
 
                 <a href="mailto:juelshealthcare@outlook.com">
+
                     juelshealthcare@outlook.com
+
                 </a>
 
             </p>
+
 
         </div>
 
@@ -2027,6 +3004,7 @@
         </div>
 
     </div>
+
 
 </footer>
 
